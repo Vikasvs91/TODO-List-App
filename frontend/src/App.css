@@ -1,0 +1,102 @@
+body{
+  background-image: url("C:\Codings\ToDo-List-App\frontend\src\images\todo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%;
+}
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20%;
+  padding: 2rem;
+  background-color: transparent;
+  backdrop-filter: blur(100px);
+  border-radius: 8px;
+  box-shadow: 0 0 10px black;
+  transition: 0.5s;
+}
+.app:hover{
+  box-shadow: 0 0 10px skyblue;
+  transition: 0.5s;
+}
+
+form{
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 10px black;
+  transition: 0.5s;
+}
+form:hover{
+  box-shadow: 0 0 20px black;
+  transition: 0.5s;
+}
+
+input{
+  color: black;
+  padding-top: 5%;
+  width: 40%;
+  height: 20%;
+  
+}
+
+input,textarea{
+  background-color: transparent;
+  color: black;
+  margin-bottom: 3%;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+}
+::placeholder{
+  color: black;
+}
+
+button{
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 0 10px black;
+  transition: 0.5s;
+}
+button:hover{
+  background-color: #ccc;
+  box-shadow: 0 0 20px black;
+  transition: 0.5s;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: skyblue;
+  border-radius: 50px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #888888;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:#0682c5 ;
+  backdrop-filter: blur(100px);
+}
