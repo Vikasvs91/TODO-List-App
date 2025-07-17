@@ -1,5 +1,5 @@
 # To-Do List App
-
+A mobile application built using React Native and Firebase, featuring user authentication, to-do list management, and profile editing capabilities.
 A simple full-stack To-Do List application that allows users to add, delete, and mark tasks as complete. This project is built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
 ## Table of Contents
